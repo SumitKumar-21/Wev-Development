@@ -1,0 +1,29 @@
+#maindiv{
+    height:px;
+    width:70px;
+    /* border: 2px;
+    border-color: black;
+    border-style: solid; */
+    border: 2px black solid;
+padding:10px;
+}
+#maindiv div {
+height:50px;
+width: 50px;
+border-radius: 50%;
+/* border-style: solid;
+border-color: black;
+border-width: 2px; */
+border: solid black 2px;
+margin:5px 5px 5px 5px;
+
+}
+#one{
+    background-color: red;
+}
+#two{
+    background-color: yellow;
+}
+#three{
+    background-color: green;
+}
