@@ -1,0 +1,42 @@
+/* div{
+    text-align: center;
+    text-decoration: aqua;
+    color: cyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+height:300px;
+width: 200px;
+background-color:rgba(126, 126, 126, 0.888);
+opacity: 0.5;
+transition: 4s;
+transform:translate(20px);
+}
+
+div:hover{
+    background-color:black;
+    border-radius: 50%;
+    opacity: 1;
+      margin:0 auto; 
+    /* margin-top: 50%; */
+     /* transform: rotate(180deg); transform property */
+      /* transform:scale(0.5,0.5);   */
+/* } */
+#secondDiv{
+  height: 100px;
+  width: 100px;
+  transition-duration: 6s;
+  background-color: blue ;
+  margin:0 auto;
+    transform: translate(50px, 100px) rotate(50deg) scale(1.5, 1.5) skew(180deg, 180deg) ;
+    box-shadow: 20px 20px 20px black;
+    background-image: url("https://images.unsplash.com/photo-1604964432806-254d07c11f32?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover;
+}
+#secondDiv:hover{
+  /* transform:skew(50deg) ;
+  transform: rotate(50deg); 
+  transform:scale(1.5);
+  transform: translateY(50px) translateX(50px); */
+
+  transform: translate(50px, 100px) rotate(45deg) scale(1.5) skew(20deg, 10deg);
+  border-radius: 50%; 
+}

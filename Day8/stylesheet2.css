@@ -1,0 +1,25 @@
+div{
+    height: 150px;
+    width:150px;
+    display:inline-block;
+    background-color: brown;
+}
+.static{
+    background-color: black;
+    position: static;
+    top:100px;
+    left: 200px;
+}
+.random{
+    background-color: black;
+    position: relative;
+    top:100px; 
+    left: 200px;
+}
+.fixed{
+    background-color: rgb(95, 10, 221);
+    position: relative;
+    top:1000px; 
+    left: 1000px;
+}
+/* mdn */
