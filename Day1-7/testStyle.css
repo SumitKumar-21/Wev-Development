@@ -1,0 +1,66 @@
+/* Giving height and width to div  */
+div {
+    height:400px;
+    width: 400px;
+    background-color:beige;
+    border-width: 5px; 
+    border-color: black;
+    border-style: solid;
+    border:5px double blue;
+    border-left-color: black;
+    /* border-right-style: dotted; */
+    border-bottom-width: 2px ;
+    /* For making circle we need height = width and radius = 50% */
+    border-radius: 5px;
+    border-top-left-radius:50px;
+/* padding-top: 200px;
+padding-left:200px; */
+/* padding-right:200px; */
+margin-bottom: 50px;
+margin-top: 10px;
+       margin: 10px 20px 30px 40px;
+       margin:0px;  /*to remove the default margin */
+    
+}
+
+button{
+    border-color: blue;
+    border-radius: 6px;
+    background-color: black;
+    color:cyan;
+    padding-left: 20px;;
+    padding-right: 20px;
+    
+}
+
+/* Border of the box  */
+/* border style border color border width  */
+/* border shorthand--> width|style|color */
+/* border sides 
+1. border-left 
+2. border-right
+3.border-top
+4.border-buttom */
+
+/* Border radius */
+/* border-top-left-radius:50px; */
+
+
+/* ---->Padding <----- */
+/* padding left =50px;
+padding right
+padding top
+padding buttom 
+-->Padding shorthand
+1.for all 4 side
+padding :px  --> all 4 side 
+padding :top right buttom left px;
+
+*/
+
+ /* margin --> to control the spacing between the box  */
+ /* margin-left
+ margin-right
+ margin-top
+ margin shorthand;
+ */

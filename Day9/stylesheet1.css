@@ -1,0 +1,31 @@
+#container{
+    border: 2px;
+    border-style:solid;
+    border-color: #000000;
+    height: 400px;
+    width: 100%;
+    background-color:aliceblue ;
+    text-align: center;
+    margin:10px auto;
+    display:flex;   /*default direction is row*/
+    flex-direction:column;
+    justify-content:space-evenly; 
+   
+    flex-wrap: wrap; 
+    /* align-items:center;  */
+    align-content: flex-start;
+}
+/* self allignment */
+#ind{
+    align-self: flex-end;
+    /* flex-basis: 100px; */ 
+}
+#blue{
+    flex-shrink:10px ;
+}
+#container div{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color:navajowhite;
+} 

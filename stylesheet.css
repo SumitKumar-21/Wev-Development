@@ -1,0 +1,111 @@
+*{
+    font-family: 'Courier New';
+    
+}
+
+h1{
+    color:#b92b27;
+}
+h3{
+    color:black;
+}
+#signup{
+    background-color: #b92b27;
+    color:aliceblue;
+}
+.a{
+    background-color:brown;
+    color:aqua;
+}
+.a + button {
+    background-color: blue;
+    color: aqua;
+}
+div> input{
+    background-color: black;
+    color:whitesmoke ;
+      
+}
+/* Attribute selector  */
+input[type="text"]{
+    background-color: floralwhite;
+    color:black;
+
+    font-weight: 200;
+}
+input[type= "username"]{
+    background-color: black;
+    color:ivory;
+}
+/* --------------------------------- */
+
+/* Pseudoclass */
+/* 1.Hover */
+  button:hover{
+    background-color: black;
+    color:lightcyan;
+  } 
+  h3:hover{
+    text-decoration: double;
+  }
+  /* 2.Active */
+  button:active{
+    background-color: azure;
+    color: black;
+  }
+   p:hover{
+    background-color: aquamarine;
+    outline-color: azure;
+   }
+   p:active{
+    font-weight: bold;
+   }
+   /* 3.checked  -->Generally used  for check boxes and radio buttons */
+    input[type="radio"]:checked+label {
+        color: rgb(253, 54, 4);
+        font-weight: bolder;
+
+    }
+    /* 4. nth-of-type --> used to apply the CSS change in a definite pattern for example all the alternate paragraph , alternate check boxes, alternate h1 etc   */
+    div:nth-of-type(2n){
+        background-color: darkcyan;
+    }
+
+    /* ------------------------------------------------- */
+
+    /* Pseudo element  */
+    /* ::first -letter , ::first line , ::selection */
+    h1::first-letter{
+        color: black;
+    }
+    p::first-line{
+        background-color: aqua;
+    }
+    p::selection{
+        background:yellowgreen; 
+    }
+
+    /* Cascading stylesheet  */
+    /* Jo chiz baad ma aayai oo lagu hoga*/
+    h3{
+        background-color: blue;
+    }
+    h3{
+        background-color: burlywood;
+    }
+    /* to see the specifity jsut move your cursor to any of the element   */
+
+  /* !important --> for most important thing in css that should not be changed any how 
+  for using this just right !important at the end of that particular styling  */
+
+  /* --> inheritace In CSS  <-- */
+      /* INLINE AND BLOCK  */
+h1+h2{
+    display:inline;
+    background-color: aqua;
+}
+span{
+    display:block;
+    background-color: black;
+}
+
